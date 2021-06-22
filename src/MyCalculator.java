@@ -20,6 +20,7 @@ public class MyCalculator {
                 System.out.println("Ровно" + " " + (num1 * num2));
             else if (a.equals("/"))
                 System.out.println("Ровно" + " " + (num1 / num2));
+            if(a.equals("0")) break;
         }
     }
 }
